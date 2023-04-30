@@ -12,7 +12,7 @@ public class Array {
         System.out.println("avgOfArray = " + avgOfArray(arr));
         System.out.println("sorted = " + Arrays.toString( sorted(arr)));
     }
-   public static int  minValue(int arr[]){
+   public static int  minValue(int[] arr){
         int min;
        min = arr[0];
        for (int i = 1; i <arr.length ; i++) {
@@ -25,7 +25,7 @@ public class Array {
 
        return min;
    }
-    public static int  maxValue(int arr[]){
+    public static int  maxValue(int[] arr){
         int max;
         max = arr[0];
         for (int i = 1; i <arr.length ; i++) {
